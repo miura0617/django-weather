@@ -4,9 +4,15 @@
 
 git clone https://github.com/miura0617/django-weather.git
 
-## (2) 仮想環境を作成する
+## (2) 仮想環境を作成し、仮想環境を有効にします
+
+以下のコマンドで仮想環境を作成します。
 
 python -m venv venv
+
+以下のコマンドで仮想環境を有効にします。
+
+venv\Scripts\activate
 
 ## (3) 仮想環境に外部ライブラリをインストールし、開発環境を復元します
 
